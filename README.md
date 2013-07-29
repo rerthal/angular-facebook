@@ -3,6 +3,8 @@ angular-facebook
 
 Facebook sdk for angularjs
 
+NOTE: YOU DON'T HAVE TO INCLUDE THE FACEBOOK SDK SCRIPT LOADER
+
 Usage example
 
 ```js
