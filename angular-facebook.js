@@ -76,7 +76,7 @@
             },
             getAuthResponse : function () {
                 return handler(function () {
-                    return FB.Event.getAuthResponse();
+                    return FB.getAuthResponse();
                 });
             },
             getLoginStatus : function (cb, force) {
