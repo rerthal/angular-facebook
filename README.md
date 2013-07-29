@@ -14,8 +14,19 @@ angular.module('MyModule', ['facebook']).config(function ($facebookProvider) {
     status : true,
     cookie : true,
     xfbml : true
+    /*...*/
   });
   
+  $facebookProvider.Event.subscribe('auth.authResponseChange', function () {
+    /*...*/
+  });
   
+  $facebookProvider.api('/me', function (response) {
+    /*...*/
+  });
+  
+  console.log($facebookProvider.getAuthResponse());
+  
+  /*...*/
 });
 ```
