@@ -32,3 +32,7 @@ angular.module('MyModule', ['facebook']).config(function ($facebookProvider) {
   /*...*/
 });
 ```
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/rafaelalmeidaerthalhermano/angular-facebook/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
